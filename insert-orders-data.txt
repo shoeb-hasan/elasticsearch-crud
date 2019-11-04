@@ -1,0 +1,50 @@
+
+## insert data to orders
+
+POST /test-cafe-orders/orders/1/_create
+{
+"id": 1,
+"orderDate": "2019-01-01",
+"customerId" : 1,
+"total" : 15.5
+}
+
+POST /test-cafe-orders/orders/2/_create
+{
+"id": 2,
+"orderDate": "2019-01-02",
+"customerId" : 1,
+"total" : 9.99
+}
+
+POST /test-cafe-orders/orders/3/_create
+{
+"id": 3,
+"orderDate": "2019-01-03",
+"customerId" : 1,
+"total" : 5.5
+}
+
+POST /test-cafe-orders/orders/4/_create
+{
+"id": 4,
+"orderDate": "2019-01-04",
+"customerId" : 1,
+"total" : 27.5
+}
+
+POST /test-cafe-orders/orders/5/_create
+{
+"id": 5,
+"orderDate": "2019-01-02",
+"customerId" : 2,
+"total" : 10.5
+}
+
+POST /test-cafe-orders/orders/6/_create
+{
+"id": 6,
+"orderDate": "2019-01-10",
+"customerId" : 3,
+"total" : 17.5
+}

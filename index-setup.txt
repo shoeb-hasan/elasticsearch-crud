@@ -1,0 +1,41 @@
+
+## setup indices
+
+# create customers index
+PUT /test-cafe-customers
+{
+    "settings" : {
+        "index" : {
+            "number_of_shards" : 1, 
+            "number_of_replicas" : 1 
+        }
+    }
+}
+
+# create orders index
+PUT /test-cafe-orders
+{
+    "settings" : {
+        "index" : {
+            "number_of_shards" : 1, 
+            "number_of_replicas" : 1 
+        }
+    }
+}
+
+# create orderdetails index
+PUT /test-cafe-orderdetails
+{
+    "settings" : {
+        "index" : {
+            "number_of_shards" : 1, 
+            "number_of_replicas" : 1 
+        }
+    }
+}
+
+
+# verify indices
+GET /test-cafe-customers/_search
+GET /test-cafe-orders/_search
+GET /test-cafe-orderdetails/_search

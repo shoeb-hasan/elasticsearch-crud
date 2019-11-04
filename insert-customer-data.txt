@@ -1,0 +1,43 @@
+
+## inert data to customers
+
+POST /test-cafe-customers/customers/1/_create
+{
+"id": 1,
+"name": "John",
+"email" : "john@testserver.com",
+"isActive" : true
+}
+
+POST /test-cafe-customers/customers/2/_create
+{
+"id": 2,
+"name": "Jane",
+"email" : "jane@testserver.com",
+"isActive" : true
+}
+
+POST /test-cafe-customers/customers/3/_create
+{
+"id": 3,
+"name": "Chris",
+"email" : "chris@testserver.com",
+"isActive" : true
+}
+
+POST /test-cafe-customers/customers/4/_create
+{
+"id": 4,
+"name": "Sam",
+"email" : "sam@testserver.com",
+"isActive" : false
+}
+
+POST /test-cafe-customers/customers/5/_create
+{
+"id": 5,
+"name": "Pam",
+"email" : "pam@testserver.com",
+"isActive" : true
+}
+
